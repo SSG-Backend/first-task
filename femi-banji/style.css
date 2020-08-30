@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+}
+/* HEADER SECTION BEGINS HERE */
+
+header {
+  background-color: rgb(238, 138, 138);
+  height: 200px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+
+.header {
+  padding-top: 80px;
+}
+
+.btn-icon {
+  background-color: #ffffff;
+
+  font-size: 15px;
+  border-radius: 20px;
+  margin: 10px 470px;
+  height: 40px;
+  border: none;
+}
+
+#discover {
+  text-align: center;
+  font-family: "Noto Sans TC", sans-serif;
+  color: #9e581e;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 6px;
+}
+/* HEADER SECTION ENDS HERE */
+
+/* CARD SECTION BEGINS HERE */
+.card-section {
+  display: flex;
+  width: 40%;
+  margin: 0 auto ;
+}
+
+.card {
+  margin: 30px 30px;
+  width: 30%;
+  height: 100px;
+  box-shadow: 0px 4px 4px rgba(150, 150, 150, 0.75);
+}
+
+.first-card {
+float: left;
+width: 33.33%;
+}
+
+.second-card {
+width: 33.33%;
+}
+
+.third-card {
+float: right
+width: 33.33%;
+}
+
+/* CARD SECTION ENDS HERE */
+
+/* TABLE SECTION BEGINS HERE */
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+table {
+  width: 90%;
+
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+th,
+td {
+  padding: 7px 20px 10px 20px;
+  text-align: center;
+}
+
+th {
+  letter-spacing: 0.1em;
+  font-size: 90%;
+}
+tr > td {
+  background-color: #dddddd;
+}
+
+#tableHeader,
+#tableData {
+  border: 0.3px solid rgba(0,0,0,0.3);
+  color:rgba(0,0,0,0.3)
+  
+}
+/* TABLE SECTION ENDS HERE */
+
+/* FORM SECTION STARTS HERE */
+
+ .form-section {
+    width: 80%;
+    height: 150px;
+    background-color: rgb(105, 104, 104);
+    margin: 150px auto;
+    padding-top: 20px;
+    
+}
+
+#form{
+   
+   display: inline;
+   text-align: center;
+}
+
+form{
+    padding: 50px;
+}
+
+
+.input-box {
+    width: 200px;
+    border-radius: 3px;
+    height: 30px;
+    padding-right: 100px;
+    border: none;
+}
+
+.submit-btn {
+    width: 5px;
+    border-radius: 5px;
+    height: 30px;
+    background-color:  rgb(238, 138, 138);
+    padding-right: 150px;
+    margin-left: -5px;
+    color: #ffffff;
+    border: none;
+    align-content: center;
+    text-align: center;
+
+}
+/* FORM SECTION ENDS HERE */
+
+.footer-section{
+    margin-top: -150px;
+}
+
+
+.footer{
+   text-align: center;
+    border-top: 1px solid #a8a4a4;
+    color: #a8a4a4;
+    padding: 2rem 0;
+}
+
+
+/* FORM SECTION STARTS HERE */
