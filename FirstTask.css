@@ -1,0 +1,170 @@
+#welcome{
+	position: absolute;
+width: 1440px;
+height: 287px;
+left: 0px;
+top: 0px;
+
+background: #D283AE;
+}
+
+h2{
+	position: absolute;
+width: 448px;
+height: 56px;
+left: 496px;
+top: 115px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color: #FFFFFF
+}
+
+#discover{
+	position: absolute;
+width: 228px;
+height: 53px;
+left: 606px;
+top: 210px;
+color: #D283AE;
+background: #FFFFFF;
+border-radius: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+}
+
+.box{
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#left-box{
+	position: absolute;
+width: 305px;
+height: 221px;
+left: 96px;
+top: 357px;
+
+background: #FFFFFF;
+}
+
+#center-box{
+	position: absolute;
+width: 305px;
+height: 221px;
+left: 529px;
+top: 357px;
+
+background: #FFFFFF;
+}
+
+#right-box{
+	position: absolute;
+width: 305px;
+height: 221px;
+left: 962px;
+top: 357px;
+
+background: #FFFFFF;
+}
+
+table{
+	position: absolute;
+width: 1171px;
+height: 62px;
+left: 96px;
+top: 618px;
+height: 62px;
+text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+}
+
+thead{
+	
+	background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+tbody{
+	background: rgba(35, 33, 33, 0.26);
+}
+#subscribe{
+	position: absolute;
+width: 1160px;
+height: 154px;
+left: 107px;
+top: 804px;
+
+background: #423C3C;
+}
+
+#Email{
+	position: absolute;
+width: 573px;
+height: 52px;
+left: 180px;
+top: 52px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+color: rgba(0, 0, 0, 0.31);
+display: flex;
+align-items: center;
+text-align: center;
+background: #FFFFFF;
+}
+
+#click{
+	position: absolute;
+width: 247px;
+height: 52px;
+left: 750px;
+top: 52px;
+display: flex;
+color: white;
+align-items: center;
+text-align: center;
+background: #D283AE;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+}
+
+footer{
+	position: absolute;
+width: 246px;
+height: 28px;
+left: 480px;
+top: 200px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.46);
+
+}
