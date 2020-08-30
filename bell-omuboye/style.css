@@ -1,0 +1,175 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.bg-primary {
+background-color: #D27474;
+}
+
+.container {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6em 0 3em;
+    color: white;
+}
+
+header * + * {
+	margin-top: 0.75em;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+input, .btn {
+	outline: none;
+	border: none;
+}
+
+header .btn {
+    outline: none;
+    background-color: white;
+    border: none;
+    padding: 0.75em 3em;
+    border-radius: 25px;
+    color: #A17F66;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+header .btn:hover {
+	background-color: #a17f66;
+	color: white;
+}
+
+section.cards {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+section.cards .card {
+    width: 200px;
+    height: 200px;
+    box-shadow: -2px 5px 5px 0px rgba(150, 150, 150, 0.22), 2px 5px 5px 0px rgba(150, 150, 150, 0.22);
+    flex: 0 0 auto;
+    margin: 10px;
+}
+
+section.cards .container {
+	display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+@media (min-width: 568px) {
+	section.cards .card {
+		flex: 1 1 auto;
+	}
+
+}
+
+table {
+	table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  color: #989696;
+  margin-top: 2em;
+  margin-bottom: 8em;
+}
+
+thead {
+	border: 1px solid #989696;
+}
+
+th {
+	font-weight: normal;
+}
+
+tbody {
+	background-color: #F1F1F1;
+	border: 1px solid #dedcdc;
+}
+
+th, td {
+  padding: 20px;
+  text-align: left;
+}
+
+section.cta {
+		position: relative;
+	bottom: -20px;
+}
+
+section.cta .content {
+	background-color: #4F4F4F;
+    padding: 5em 10em;
+}
+
+section.cta form {
+	display: flex;
+}
+
+section.cta form * {
+	padding: 1em 1em;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+section.cta form input {
+	flex: 1 1 auto;
+	padding-left: 2em;
+	z-index: 2;
+}
+
+section.cta form input::placeholder {
+	letter-spacing: 2px;
+}
+
+section.cta .btn {
+	padding-left: 5em;
+	padding-right: 5em;
+	position: relative;
+    left: -5px;
+    color: white;
+}
+
+section.cta .btn:hover {
+	color: #a17f66;
+	background-color: white;
+}
+
+footer	{
+	padding: 1.5em 0;
+	padding-top: calc(1.5em + 20px);
+	border-top: 1px solid #4F4F4F;
+	color: #989696;
+	text-align: center;
+}
+
+@media (max-width: 568px) {
+	section.cta .content {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	section.cta .btn {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
