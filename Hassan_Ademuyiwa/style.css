@@ -1,0 +1,84 @@
+header{
+    background-color: rgb(235, 137, 137);
+    text-align: center;
+    height: 200px;
+    width:100%;
+}
+h1{
+    color: red;
+    color: white;
+}
+.jumbotron {
+    background-color: rgb(235, 137, 137);
+}
+
+.btn-primary{
+    background-color: #fff;
+    color: rgb(235, 137, 137);
+    border-radius: 20px;
+    border-color:rgb(235, 137, 137);
+}
+.box{
+    /* border-style: solid; */
+    margin: 20px 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 200px;
+
+}
+.container {
+display: flex;
+} 
+section{
+    margin-top: 20px;
+}
+table{
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+
+}
+table, tr{
+    border: 0.5px solid;
+    border-style: groove;
+    margin: 10px 10px;
+    
+}
+td{
+    padding: 10px 50px;
+    margin-left: 20px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+aside{
+    display: flex;
+    background-color: #666; 
+    align-content: center;
+    margin-top: 100px;
+    height: 250px;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+.form-control{
+    align-self: center;
+    display: flex;
+    margin-left: 150px;
+    width: 600px;
+    border-radius: 0.2rem;
+
+}
+.sub-btn{
+    background-color: rgb(235, 137, 137);
+    height: calc(1.5em + .75rem + 2px);
+    border-style: none;
+    border-radius: 0.2rem;
+    width: 200px;
+    color: white;
+}
+footer{
+    text-align: center;
+}
