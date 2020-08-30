@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+#title {
+    background: rgb(235, 166, 178);
+    color: white;
+}
+
+.custom {
+    background: rgb(235, 166, 178) !important;
+}
+
+.heading {
+    text-align: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.heading h1 {
+    font-weight: 400;
+}
+
+.heading .btn {
+    background: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+    margin-top: .5rem;
+    color: rgb(187, 145, 39);
+    font-weight: 700;
+    font-size: bold;
+}
+
+th {
+    color: gray;
+}
+
+.dark-area {
+    background: rgba(71, 67, 67, 0.733);
+}
+
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.315);
+}
+
+.fot {
+    color: gray;
+}
