@@ -2,51 +2,52 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to my page</h1>
-        <div>Discover</div>
-    </header>
-    <main>
-        <section>
-
-            <article></article>
-
-            <article></article>
-
-            <article></article>
-
-        </section>
 
 
-        <section>
+    <div class="grid-container">
+        <div class="header" id="header-text">
+            <h2>Welcome to my page</h2>
+            <div class="btn"><p href="http://">Discover</p></div>
+        </div>
+            <div class="card-one" id="card-1"></div>
+            <div class="card-two" id="card-2"> </div>
+            <div class="card-three" id="card-3"> </div>
 
-            <div>
-                <span>Name</span>
-                <span>Email Address</span>
-                <span>Phone Number</span>
-            </div>
+        <div class="table">
+        <table class="greyGridTable">
+            <thead>
+                <tr class="table_head">
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table_body">
+                    <td>John Doe</td>
+                    <td>johndoe@gmail.com</td>
+                    <td>08063138322</td>
+                </tr>
+            </tbody>
+        </table>
 
-            <div>
-                <span>John doe</span>
-                <span>johndoe@gmail.com</span>
-                <span>08090345930</span>
-            </div>
+        </div>
 
-        </section>
+        <div class="subscribe">
 
-        <section>
-        <div><input type="text" placeholder="Email Address"/> <span>subscribe</span></div>
-        
-        </section>
-        <footer>
-            <p>All rights reserved 2029</p>
-        </footer>
-    </main>
+                <input class="subscribe-group email" type="email" placeholder="Email Address" id="">
+                <input class="subscribe-group button" type="button" value="subscribe">
+
+        </div>
+        <div class="footer">
+            <p>All rights reserved 2020</p>
+        </div>
+    </div>
+
 </body>
 
 </html>
