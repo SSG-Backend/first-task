@@ -1,0 +1,153 @@
+/* colors
+pink -- #da9091
+white
+grey -- #f1f1f1
+dark -- #4f4f4f */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#hero {
+    background: #da9091;
+    color: #ffffff;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero div {
+    text-align: center;
+}
+
+#hero div h1 {
+    letter-spacing: 1px;
+}
+
+#hero div a {
+    display: inline-block;
+    text-decoration: none;
+    background: #ffffff;
+    color: #da9091;
+    width: 50%;
+    padding: 0.8em;
+    margin-top: 1em;
+    font-weight: bold;
+    border-radius: 2em;
+}
+
+#main {
+    margin-bottom: 20vh;
+}
+
+.grid {
+    display: grid;
+    width: 90vw;
+    margin: 4vh auto;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    height: 30vh;
+    /* width: 90vw; */
+    /* margin: 0; */
+    -webkit-box-shadow:  0.1px 6px 5px #ccc;
+    -moz-box-shadow:     0.1px 6px 5px #ccc;
+    box-shadow:          0.1px 6px 5px #ccc;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90vw;
+    margin: 5vh auto;
+    color: #a8a8a8;
+}
+
+th, td {
+    height: 50px;
+    padding-left: 4em;
+}
+
+th {
+    border-bottom: 1px solid #d1d1d1;
+    border-top: 1px solid #d1d1d1;
+    font-weight: normal;
+    text-align: left;
+}
+
+th:first-of-type {
+    border-left: 1px solid #d1d1d1;
+}
+
+th:last-of-type {
+    border-right: 1px solid #d1d1d1;
+}
+
+td {
+    background: #f1f1f1;
+}
+
+#newsletter {
+    width: 90%;
+    height: 30vh;
+    margin: 0 auto;
+    background: #4f4f4f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+input#email-list {
+    width: calc((100% / 6) * 4);
+    padding: 1.2em 2em;
+    border: none;
+    border-radius: 0.4em 0 0 0.4em;
+}
+
+input#email-list::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #a8a8a8;
+}
+input#email-list::-moz-placeholder { /* Firefox 19+ */
+  color: #a8a8a8;
+}
+input#email-list:-ms-input-placeholder { /* IE 10+ */
+  color: #a8a8a8;
+}
+input#email-list:-moz-placeholder { /* Firefox 18- */
+  color: #a8a8a8;
+}
+
+button[type="submit"] {
+    width: calc((100% / 6) * 2); 
+    background: #da9091;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 0 0.4em 0.4em 0;
+}
+
+hr {
+    position: relative;
+    top: -5px;
+    z-index: -5;
+    border: none;
+    border-top: 0.1px solid #4f4f4f;
+}
+
+#footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a8a8a8;
+}
